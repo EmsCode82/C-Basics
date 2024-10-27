@@ -2,10 +2,66 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\nWelcome to C++ learning." << std::endl;
+    // ---------------------------------------------------------------------------
+
+    // Lesson 1: Hello World
+    std::cout << "Welcome to C++ learning.\n\n" << std::endl;
+    std::cout << "Lesson 1 - Display Hello World\n\n";
+    
+
+    // ---------------------------------------------------------------------------
+
+    // Lesson 2: Hello World, Basic I/O Input - Output
+    std::cout << "Lesson 2 - Basic I/O Input Output\n\n";
+    
+    // Declare string variable
+    std::string name;
+    
+    // Output string to console
+    std::cout << "Please enter your name: ";
+    
+    // Input user input into string variable
+    std::cin >> name;
+    
+    // Output string with user string variable stored data
+    std::cout << "\nHello, " << name << "! Nice to meet you." << std::endl;
+
+    // ---------------------------------------------------------------------------
+    
+    // Lesson 3: Variables, Data Types, Operators
+    
+    // Declare integer variable
+    int age = 42;
+
+    // Declare floating-point number
+    float pi = 3.14159;
+
+    // Declare character
+    char grade = 'A';
+
+    // Declare boolean
+    bool isStudent = false;
+
+    // Output stored data in variables
+    std::cout << "\nAge: " << age << std::endl;
+    std::cout << "\nPi: " << pi << std::endl;
+    std::cout << "\nGrade: " << grade << std::endl;
+    std::cout << "\nIs Student? " << (isStudent ? "Yes" : "No") << std::endl;
+
+    // Basic arithmatic operators
+    int x = 10;
+    int y = 3;
+
+    std::cout << "x + y = " << x + y << std::endl;
+    std::cout << "x - y = " << x - y << std::endl;
+    std::cout << "x * y = " << x * y << std::endl;
+    std::cout << "x / y = " << (float)x / y << std::endl; // Cast to float for decimal result
+    std::cout << "x % y = " << x % y << std::endl;
+
     return 0;
 }
 
