@@ -34,16 +34,16 @@ int main()
     
     // Lesson 3: Variables, Data Types, Operators
     
-    // Declare integer variable
+    // Declare integer variable and assign value
     int age = 42;
 
-    // Declare floating-point number
+    // Declare floating-point number and assign value
     float pi = 3.14159;
 
-    // Declare character
+    // Declare character and assign value
     char grade = 'A';
 
-    // Declare boolean
+    // Declare boolean and assign value
     bool isStudent = false;
 
     // Output stored data in variables
